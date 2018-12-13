@@ -1,0 +1,609 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+label,
+dl,
+dt,
+dd,
+header,
+footer,
+nav,
+section,
+aside,
+dialog,
+figure,
+figcaption,
+hgroup,
+article {
+	display: block;
+}
+
+ul {
+	list-style: none
+}
+
+.clearfix:after {
+	display: block;
+	height: 0;
+	clear: both;
+	content: '.';
+	visibility: hidden;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	/*空白不换行*/
+	overflow: hidden;
+	/*溢出隐藏*/
+	text-overflow: ellipsis;
+	/*显示省略号*/
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Hiragino Sans GB", "Hiragino Sans GBW3", "Microsoft Yahei", STHeiti, SimSun, helvetica, arial, sans-serif;
+}
+
+
+
+header{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background: #333333;
+	position: relative;
+}
+header .head{
+	max-width: 1000px;
+	line-height: 80px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+header .head h1{
+	float: left;
+	width: 17.1%;
+	margin-right: 9.7%;
+	margin-top: 11px;
+}
+.head h1 a{
+	width: 100%;
+	display: block;
+	height: 58px;
+	line-height: 58px;
+}
+header .head span,.menu{
+	display: none;
+	line-height: 40px;
+	border-radius: 4px;
+	color: #dfffff;
+}
+header .head .menu{
+	border: 1px solid #666666;
+	width: 120px;
+	height: 40px;
+	float: right;
+	position: relative;
+	margin-top:19px;
+	margin-right: 5%;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	font-weight:500;
+}
+header .head .menu span:first-of-type{
+	display: inline-block;
+	width:25px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: 70px;
+	top: 10px;
+}
+.head>span{
+	display: inline-block;
+	margin-top: 23px;
+	font-size: 37px;
+	height: 37px;
+	line-height: 37px;
+	font-weight:600;
+	font-family: simsun;
+}
+header .head .menu span:first-of-type{
+	display: inline-block;
+	width:25px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: 60px;
+	top: 10px;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+}
+header .head .menu span:nth-of-type(2){
+	display: inline-block;
+	width:25px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: 60px;
+	top: 18px;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+}
+header .head .menu span:nth-of-type(3){
+	display: inline-block;
+	width:25px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: 60px;
+	top: 26px;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+}
+
+
+
+header .head ul{
+	width:73.2%;
+	float: left;
+}
+header .head ul li a{
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	padding-left: 18px;
+	padding-right: 19px;
+	font-family: "microsoft yahei";
+	color: white;
+}
+.menu a{
+	color: white;
+	display: block;
+}
+.menu:hover{
+	background: #5c5c5c;
+}
+header .head ul li{
+	float: left;
+}
+header .head ul li:first-of-type{
+	background: #5c5c5c;
+}
+header .head ul li:hover{
+	background:#5c5c5c;
+}
+nav{
+	display: none;
+	border-top:3px solid #ccc;
+	border-bottom:3px solid #ccc;
+}
+
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	background:#333333;
+	width: 100%;
+	/*height: 50px;
+	line-height: 50px;*/
+	
+}
+nav ul li{
+	text-align: center;
+	width: 11.3%;
+	line-height: 40px;
+}
+nav ul li:first-of-type a{
+	color: #fa9634;
+	
+}
+nav ul li:first-of-type{
+	background: #5c5c5c;
+	
+}
+nav ul li{
+	color: white;
+	
+}
+header .head span{
+	font-size: 38px;
+	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width:1000px) {
+	header .head ul{
+		display: none;
+	}
+	header .head span{
+		display: block;
+		margin-left:15%;
+		width: 200px;
+		float: left;
+		
+	}
+	header .head h1{
+		margin-left: 4.9%;
+		margin-right: 0;
+		width: 20%;
+	}
+	
+	header .head .menu{
+		display: block;
+		text-indent: 16px;
+	}
+	footer .foot ul li{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	footer .foot{
+		width: 80%;
+	}
+}
+@media only screen and (max-width:760px) {
+	header{
+		height: 60px;
+	}
+	header .head h1{
+		height: 56px;
+		line-height: 56px;
+		margin-top: 4px;
+		
+	}
+	header h1 a{
+		height: 60px;
+		line-height: 60px;
+	}
+	header h1 a img{
+		width: 100%;
+		
+	}
+	header .head>span{
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	header .head .menu{
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+		margin-top: 15px;
+		text-indent: 11px;
+	}
+	
+	header .head .menu span:first-of-type{
+		width: 20px;
+		top: 5px;
+		left: 63px;
+	}
+	header .head .menu span:nth-of-type(2){
+		width: 20px;
+		top: 13px;
+		left: 63px;
+	}
+	header .head .menu span:nth-of-type(3){
+		width: 20px;
+		top: 21px;
+		left: 63px;
+	}
+	header .head >span{
+		margin-left: 10%;
+		line-height: 60px;
+		margin-top: 0;
+		height: 60px;
+		font-weight: 200;
+	}
+	header .head{
+		height: 60px;
+		line-height: 60px;
+	}
+	nav{
+		flex-wrap:wrap;
+	}
+	nav ul {
+		flex-wrap: wrap;
+	}
+	nav ul li{
+		width: 25%;
+	}
+	nav ul li a{
+		display: block;
+	}
+	footer .foot{
+		width: 95%;
+	}
+	footer .foot ul{
+		margin-left: 5%;
+	}
+	footer .foot ul li:first-of-type,footer .foot ul li:nth-of-type(3){
+		width: 40%;
+	}
+	footer .foot ul li:nth-of-type(2),footer .foot ul li:nth-of-type(4){
+		width: 60%;
+	}
+}
+@media only screen and (min-width:501px) and (max-width:760px) {
+	header .head .menu{
+		width: 100px;
+		height: 30px;
+		margin-right:2%;
+	}
+	header .head .menu span:first-of-type {
+		height: 3px;
+		border:none;
+		left: 56px;
+	}
+	header .head .menu span:nth-of-type(2) {
+		height: 3px;
+		border:none;
+		left: 56px;
+	}
+	header .head .menu span:nth-of-type(3) {
+		height: 3px;
+		border:none;
+		left: 56px;
+	}
+}
+@media only screen and (max-width:500px) {
+	header .head h1{
+		width:25%;
+		height: 56px;
+	}
+	header .head>span{
+		font-size: 23px;
+		margin-left:2%;
+		position: absolute;
+		left: 31%;
+		top: 0px;
+		width: 42%;
+	}
+	header .head .menu{
+		width: 40px;
+		height: 40px;
+		margin-left:0;
+		position: absolute;
+		right: 0px;
+		top: 10px;
+		margin-top: 0;
+	}
+	header .head .menu a{
+		display: none;
+	}
+	header .head .menu span:first-of-type {
+		top: 11px;
+		left: 0px;
+		width: 30px;
+		height: 3px;
+		border:none;
+	}
+	header .head .menu span:nth-of-type(2) {
+		top: 19px;
+		left: 0px;
+		border:none;
+		height: 3px;
+		width: 30px;
+	}
+	header .head .menu span:nth-of-type(3) {
+		top: 27px;
+		left: 0px;
+		border:none;
+		height: 3px;
+		width: 30px;
+	}
+	nav ul li{
+		width: 50%;
+	}
+	
+}
+@media only screen and (max-width:480px) {
+	
+	footer .foot ul li:nth-of-type(1){
+		width: 100%;
+		clear: both;
+		padding-left: 15%;
+		box-sizing: border-box;
+	}
+	footer .foot ul li:nth-of-type(2){
+		width: 100%;
+		padding-left: 15%;
+		clear: both;
+	}
+	footer .foot ul li:nth-of-type(3){
+		width: 100%;
+		padding-left: 15%;
+		clear: both;
+	}
+	footer .foot ul li:nth-of-type(4){
+		width: 100%;
+		padding-left: 15%;
+		clear: both;
+	}
+	footer .foot ul li{
+		margin-bottom: 0;
+	}
+}
+nav ul li a{
+	color: white;
+}
+nav ul li:hover{
+	background: #5c5c5c;
+	cursor: pointer;
+}
+nav ul li:hover a{
+	color: #fa9634;
+}
+/*//////////////////////头部结束/////////////////////*/
+/*/////////////////////尾部开始//////////////////////*/
+footer{
+	width:100%;
+	background: #333333;
+}
+footer ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer .foot{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 57px;
+	box-sizing: border-box;
+	
+	
+}
+footer .foot ul{
+		box-sizing: border-box;
+	}
+footer ul li{
+	width: 24%;
+	float: left;
+}
+footer .foot ul li span{
+	color: white;
+	font-size: 13px;
+	height: 13px;
+	line-height: 13px;
+	display: block;
+	margin-bottom: 20px;
+}
+footer ul li:first-of-type span:last-of-type{
+	text-indent: 65px;
+}
+footer ul li:nth-of-type(3) span{
+	height: 22px;
+	line-height: 22px;
+	position: relative;
+}
+footer ul li:nth-of-type(3) span a{
+	position: absolute;
+	left: 70px;
+	top: 0;
+}
+footer ul li:last-of-type span:nth-of-type(3){
+	text-indent: 66px;
+}
+@media only screen and (min-width:1000px) {
+	nav{
+		display: none !important;
+	}
+}
+.menu_2{
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	position: fixed;
+	bottom: 0;
+	z-index: 99999999999999;
+	display: none;
+}
+.menu_2 ul li{
+	width: 20%;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+.menu_2 ul li a{
+	color: white;
+	padding-top: 30px;
+	display: block;
+	padding-bottom: 10px;
+	font-size: 13px;
+	
+}
+.menu_2 ul li a:hover{
+	color: red;
+}
+.menu_2 ul li:first-of-type a{
+	background: url(../images/home.png) no-repeat center 9px;
+}
+.menu_2 ul li:nth-of-type(2) a{
+	background: url(../images/school_03.gif) no-repeat center 7px;
+}
+.menu_2 ul li:nth-of-type(3) a{
+	background: url(../images/book_06.gif) no-repeat center 9px;
+}
+.menu_2 ul li:nth-of-type(4) a{
+	background: url(../images/未标题-1_03.gif) no-repeat center 7px;
+}
+.menu_2 ul li:nth-of-type(5) a{
+	background: url(../images/more.gif) no-repeat center 12px;
+}
+.top{
+	width:100%;
+	position: fixed;
+	top: 0;
+	z-index: 999999999999999999;
+	height: 50px;
+	line-height: 50px;
+	background:#333;
+	display: none;
+}
+.top h2{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.top p{
+	width: 80%;
+	float: left;
+	font-size: 20px;
+	color: white;
+}
+@media only screen and (max-width:480px) {
+	.menu_2{
+		display: block;
+	}
+	header{
+		display: none;
+	}
+	.banner{
+		margin-top: 50px;
+	}
+	.top{
+		display: block;
+	}
+	footer{
+		display: none;
+	}
+	.job{
+		margin-bottom: 90px;
+	}
+	nav{
+		display: none !important;
+	}
+}
+@media only screen and (max-width:360px) {
+	.top p{
+		font-size: 17px;
+	}
+}
+.top a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding-left: 25%;
+	
+}
+.top a img{
+	width: 100%;
+}
+.top p{
+	box-sizing: border-box;
+}

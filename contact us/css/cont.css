@@ -1,0 +1,100 @@
+header .head ul li:hover {
+	background: #5c5c5c;
+}
+
+header .head ul li:nth-of-type(8) {
+	background: #5c5c5c;
+}
+
+header .head ul li:first-of-type {
+	background: #333;
+}
+
+header .head ul li:first-of-type:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:first-of-type {
+	background: #333;
+}
+
+nav ul li:first-of-type a {
+	color: white;
+}
+
+nav ul li:first-of-type:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:first-of-type:hover a {
+	color: #fa9634;
+	;
+}
+
+nav ul li:nth-of-type(8) {
+	background: #5C5C5C;
+}
+
+nav ul li:nth-of-type(8) a {
+	color: #fa9634;
+}
+
+.mian {
+	max-width: 1030px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+
+.mian p:first-of-type {
+	font-size: 22px;
+	display: block;
+	font-weight: bold;
+}
+
+.mian p strong {
+	font-size: 22px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.mian p strong:nth-of-type(2) {
+	padding-left: 40px;
+}
+
+.mian p strong:nth-of-type(3) {
+	padding-left: 40px;
+}
+.mian img{
+	display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 70px;
+}
+@media only screen and (max-width:760px) {
+	.mian img{
+		width: 100%;
+		
+	}
+}
+
+@media only screen and (max-width:460px) {
+	.mian p strong {
+		display: block;
+	}
+	.mian p strong:nth-of-type(2) {
+		padding-left: 0px;
+	}
+	.mian p strong:nth-of-type(3) {
+		padding-left: 0px;
+	}
+}

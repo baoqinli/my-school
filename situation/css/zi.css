@@ -1,0 +1,214 @@
+.box {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.box .left {
+	width: 26%;
+	float: left;
+	border-right: 1px solid #bababa;
+	box-sizing: border-box;
+}
+
+.box .right,
+.you {
+	width: 74%;
+	float: left;
+	padding-left: 47px;
+	box-sizing: border-box;
+}
+
+.box ul li {
+	width: calc(100% - 17px);
+	height: 80px;
+	margin-right: 17px;
+	line-height: 80px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.box ul li:first-of-type {
+	border-bottom: 4px solid #fa9634;
+	background: url(../images/xygk_03.jpg) no-repeat 20px center;
+}
+
+.box ul li:nth-of-type(2) {
+	background: url(../images/xygk_06.jpg) no-repeat 20px center;
+}
+
+.box ul li:nth-of-type(2):hover {
+	border-bottom: 4px solid #fa9634;
+	background: url(../images/xygk_07.jpg) no-repeat 20px center;
+}
+
+.box ul li a {
+	font-size: 22px;
+	color: black;
+}
+
+.box .right p {
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 32px;
+}
+
+.pic {
+	padding-top: 17px;
+	padding-bottom: 32px;
+}
+
+header .head ul li:hover {
+	background: #5c5c5c;
+}
+
+header .head ul li:nth-of-type(2) {
+	background: #5c5c5c;
+}
+
+header .head ul li:first-of-type {
+	background: #333;
+}
+
+header .head ul li:first-of-type:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:first-of-type {
+	background: #333;
+}
+
+nav ul li:first-of-type a {
+	color: white;
+}
+
+nav ul li:first-of-type:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:first-of-type:hover a {
+	color: #fa9634;
+	;
+}
+
+nav ul li:nth-of-type(2) {
+	background: #5C5C5C;
+}
+
+nav ul li:nth-of-type(2) a {
+	color: #fa9634;
+}
+
+.box .left ul li a {
+	font-family: "microsoft yahei";
+	display: block;
+}
+
+.you h4 {
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+
+@media only screen and (max-width:1000px) {
+	.box {
+		padding-left: 15px;
+		padding-right: 15px;
+		box-sizing: border-box;
+	}
+	.box img {
+		width: 100%;
+	}
+	.box .left ul li a {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:920px) and (min-width:761px) {
+	.box .left ul li a {
+		text-indent: 30px;
+		display: block;
+	}
+}
+
+@media only screen and (max-width:760px) {
+	.box .left {
+		width: 100%;
+		clear: both;
+		border-right: none;
+		margin-bottom: 10px;
+	}
+	.box .left ul li:first-of-type {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+	}
+	.box .left ul li {
+		position: relative;
+		background-position: 50% 0px;
+		padding-bottom: 15px;
+	}
+	.box .left ul li a {
+		position: absolute;
+		left: 37%;
+		top: -25px;
+		padding-top: 50px;
+		display: block;
+	}
+	.box .left ul li:nth-of-type(2) {
+		width: 48%;
+		float: left;
+		margin-left: 2%;
+		margin-right: 0;
+		border-bottom: none;
+		
+	}
+	.box .left ul li:nth-of-type(2):hover {
+		background: url(../images/xygk_06.jpg) no-repeat 50% 0px;
+	}
+	.box .left ul li:first-of-type:hover {
+		border-bottom: 4px solid white;
+	}
+	.box .right,
+	.you {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+.you {
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 32px;
+}
+
+@media only screen and (max-width:480px) {
+	.box .left ul li a {
+		font-size: 16px;
+		font-family: "simsun";
+	}
+	.box .right p{
+		font-size: 14px;
+		font-family: "simsun";
+		
+	}
+	.box .you p{
+		font-size: 14px;
+		font-family: "simsun";
+		
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.box .left ul li a {
+		left: 26%;
+	}
+}
+@media only screen and (max-width:330px) {
+	.box .left ul li a {
+		left: 24%;
+	}
+}

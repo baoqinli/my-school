@@ -1,0 +1,296 @@
+header .head ul li:hover {
+	background: #5c5c5c;
+}
+
+header .head ul li:nth-of-type(3) {
+	background: #5c5c5c;
+}
+
+header .head ul li:first-of-type {
+	background: #333;
+}
+
+header .head ul li:first-of-type:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:first-of-type {
+	background: #333;
+}
+
+nav ul li:first-of-type a {
+	color: white;
+}
+
+nav ul li:first-of-type:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:first-of-type:hover a {
+	color: #fa9634;
+	;
+}
+
+nav ul li:nth-of-type(3) {
+	background: #5C5C5C;
+}
+
+nav ul li:nth-of-type(3) a {
+	color: #fa9634;
+}
+
+.mian {
+	max-width: 1030px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.mian .left1 {
+	width: 27%;
+	float: left;
+	border-right: 1px solid #bababa;
+	box-sizing: border-box;
+}
+
+.mian .right1 {
+	width: 73%;
+	float: left;
+}
+
+.mian .left1 ul {
+	padding-right: 17px;
+}
+
+.mian .left1 ul li {
+	/*height: 81px;
+	line-height: 81px;*/
+	/*padding-top: 25px;
+	padding-bottom: 25px;*/
+	border-bottom: 5px solid white;
+}
+.mian .left1 ul li a{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.mian .left1 ul li:hover {
+	border-bottom-color: #fa9634;
+}
+
+.mian .left1 ul li:first-of-type {
+	border-bottom-color: #fa9634;
+}
+
+.mian .left1 ul li a {
+	font-size: 22px;
+	color: #222;
+	display: inline-block;
+	text-indent: 70px;
+}
+.mian .left1 ul li a{
+	width: 100%;
+}
+.mian .left1 ul li:first-of-type {
+	background: url(../images/left_link_03.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(2) {
+	background: url(../images/left_link_06.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(2):hover {
+	background: url(../images/left_link_07.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(3) {
+	background: url(../images/left_link_08.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(3):hover {
+	background: url(../images/left_link_09.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(4) {
+	background: url(../images/left_link_10.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(4):hover {
+	background: url(../images/left_link_11.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(5) {
+	background: url(../images/left_link_12.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(5):hover {
+	background: url(../images/left_link_13.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(6) {
+	background: url(../images/left_link_14.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(6):hover {
+	background: url(../images/left_link_15.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(7) {
+	background: url(../images/left_link_16.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(7):hover {
+	background: url(../images/left_link_17.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(8) {
+	background: url(../images/left_link_18.jpg) no-repeat 5% center;
+}
+
+.mian .left1 ul li:nth-of-type(8):hover {
+	background: url(../images/left_link_19.jpg) no-repeat 5% center;
+}
+
+.mian .right1 {
+	padding-left: 46px;
+	box-sizing: border-box;
+}
+
+.mian .right1 h4 {
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+
+.mian .right1 p {
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.mian .right1 img {
+	max-width: 100%;
+	padding-top: 17px;
+	padding-bottom: 32px;
+}
+
+@media only screen and (max-width:1100px) {
+	.mian {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.mian .left1 ul li a {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:760px) {
+	.mian .left1 {
+		width: 100%;
+		clear: both;
+	}
+	.mian .left1 ul li {
+		width: 33.33333%;
+		float: left;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 10px;
+	}
+	.mian .left1 ul li a{
+		padding-top: 50px;
+		padding-bottom: 10px;
+	}
+	.mian .left1 ul li:first-of-type {
+		background: url(../images/left_link_03.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(2) {
+		background: url(../images/left_link_06.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(3) {
+		background: url(../images/left_link_08.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(4) {
+		background: url(../images/left_link_10.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(5) {
+		background: url(../images/left_link_12.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(6) {
+		background: url(../images/left_link_14.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(7) {
+		background: url(../images/left_link_16.jpg) no-repeat 50% 0px;
+	}
+	.mian .left1 ul li:nth-of-type(8) {
+		background: url(../images/left_link_18.jpg) no-repeat 50% 0px;
+	}
+	.mian .right1 {
+		width: 100%;
+		clear: both;
+	}
+	.mian .left1 ul li a {
+		width: 100%;
+		text-align: center;
+		text-indent: 0;
+	}
+	.mian .left1 ul li:nth-of-type(2):hover{
+		background: url(../images/left_link_06.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li:nth-of-type(3):hover{
+		background: url(../images/left_link_08.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li:nth-of-type(4):hover{
+		background: url(../images/left_link_10.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li:nth-of-type(5):hover{
+		background: url(../images/left_link_12.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li:nth-of-type(6):hover{
+		background: url(../images/left_link_14.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li:nth-of-type(7):hover{
+		background: url(../images/left_link_16.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li:nth-of-type(8):hover{
+		background: url(../images/left_link_18.jpg) no-repeat 50% 0px;
+		border-bottom-color:white;
+	}
+	.mian .left1 ul li{
+		cursor:pointer;
+	}
+	.mian .left1 {
+		border-right: none;
+	}
+	.mian .right1{
+		padding-left: 0;
+	}
+	.mian .right1 p{
+		text-indent: 32px;
+	}
+}
+@media only screen and (max-width:560px) {
+	.mian .right1 p{
+		font-size: 12px;
+		font-family:simsun;
+	}
+	.mian .left1 ul li a{
+		font-size: 14px;
+		font-family:simsun;
+		line-height: 40px;
+	}
+	.mian .left1 ul li a span{
+		display: none;
+	}
+	.mian .right1 h4{
+		font-size: 16px;
+		line-height: 30px;
+		padding-top: 10px;
+		font-family:simsun;
+	}
+}
